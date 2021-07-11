@@ -19,13 +19,13 @@
 ## 🌙 주차별 문제
 | | 1 | 2 | 3 | 4 | 5 | 6 |
 |:----:|----------|----------|----------|----------|----------|----------|
-| 1주차 |
-| 2주차 |
-| 3주차 |
-| 4주차 |
-| 5주차 |
-| 6주차 |
-| 7주차 |
+| 1주차 |[아스키코드](https://www.acmicpc.net/problem/11654)|[숫자의합](https://www.acmicpc.net/problem/11720)|[단어공부](https://www.acmicpc.net/problem/1157)|[부녀회장이될테야](https://www.acmicpc.net/problem/2775)|[그룹단어체커](https://www.acmicpc.net/problem/1316)|[달팽이는올라가고싶다](https://www.acmicpc.net/problem/2869)|
+| 2주차 |[네번째점](https://www.acmicpc.net/problem/3009)|[직각삼격형](https://www.acmicpc.net/problem/4153)|[이진수변환](https://www.acmicpc.net/problem/10829)|[팩토리얼](https://www.acmicpc.net/problem/10872)|[재귀함수가뭔가요?](https://www.acmicpc.net/problem/17478)|[소수](https://www.acmicpc.net/problem/2581)|
+| 3주차 |[]()|[]()|[]()|[]()|[]()|[]()|
+| 4주차 |[]()|[]()|[]()|[]()|[]()|[]()|
+| 5주차 |[]()|[]()|[]()|[]()|[]()|[]()|
+| 6주차 |[]()|[]()|[]()|[]()|[]()|[]()|
+| 7주차 |[]()|[]()|[]()|[]()|[]()|[]()|
 
 
 > 문제 풀이 과정은 추후 깃허브 블로그에 올리기!

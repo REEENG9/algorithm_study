@@ -15,6 +15,7 @@ public class Problem1 {
 		int i = s.charAt(0);
 		
 		System.out.println(i);
+		input.close();
 	}
 
 }

@@ -15,7 +15,7 @@ public class Problem3 {
         int[] array = new int[27]; // 알파벳 개수 저장 배열
         int max = 0; // 배열 내 최대값 저장 변수
         int index = 0; // 최대값을 가진 인덱스 저장 변수
-        int index2 = 26; // 중복값 인덱스 저장 변수 
+        int index2 = 26; // 중복값 인덱스 저장 변수
 
         s = s.toUpperCase();
 
@@ -35,11 +35,11 @@ public class Problem3 {
                 index2 = i;
         }
 
-        if(array[index] != array[index2]) { // 
+        if(array[index] != array[index2]) { // 중복된 값이 발견되지 않았을 때
             char c = (char)(index+65);
             System.out.println(c);
         }
-        else
+        else // 중복된 값이 발견됐을 때
             System.out.println("?");
         input.close();
     }

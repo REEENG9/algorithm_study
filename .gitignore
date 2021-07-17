@@ -7,3 +7,5 @@ AlgorithmStudy/.project
 AlgorithmStudy/.settings/org.eclipse.jdt.core.prefs
 
 AlgorithmStudy/bin/week1/Problem1.class
+
+*.class

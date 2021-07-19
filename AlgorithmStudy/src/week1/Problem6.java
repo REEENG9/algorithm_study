@@ -13,7 +13,7 @@ public class Problem6 {
 		Scanner input = new Scanner(System.in);
 		int A = input.nextInt(); // 낮에 올라갈 수 있는 거리
         int B = input.nextInt(); // 밤에 미끄러지는 거리
-        int V = input.nextInt(); // 나무 막대의 길이
+        int V = input.nextInt(); // 나무 막대의 총 길이
         
         if((V-A) % (A-B) == 0)
             System.out.println((V-A)/(A-B)+1);

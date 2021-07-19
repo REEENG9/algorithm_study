@@ -10,8 +10,8 @@ import java.util.*;
 public class Problem5 {
 
 	public static void main(String[] args) {
-		    Scanner input = new Scanner(System.in);
-		    int N = input.nextInt(); // 단어의 개수
+		Scanner input = new Scanner(System.in);
+		int N = input.nextInt(); // 단어의 개수
         int count = 0; // 그룹 단어가 아닌 단어 개수
         int[] array; // 알파벳 저장 배열
         int prev = 0; // 이전 알파벳 저장

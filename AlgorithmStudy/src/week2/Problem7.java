@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * 백준 3009번
  * 네 번째 점
- *
+ * 분류 : 구현, 기하학
  */
 public class Problem7 {
 

@@ -1,3 +1,5 @@
+package AlgorithmStudy.solution.week1;
+
 import java.io.*;
 
 /**

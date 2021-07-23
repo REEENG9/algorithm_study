@@ -5,8 +5,9 @@
 ## ✏ 알고리즘 스터디
 - 비교적 쉬운 문제로 시작하는 스타터 프로젝트 입니다.
 - 모든 문제는 `java` 언어로 작성합니다.
-- 본 스터디는 [백준](https://www.acmicpc.net/) 사이트의 문제로 진행합니다.   
-[<img src="https://d2gd6pc034wcta.cloudfront.net/images/logo@2x.png" width="400">](https://www.acmicpc.net/)
+- 본 스터디는 [백준](https://www.acmicpc.net/)과 [프로그래머스](https://programmers.co.kr/) 사이트의 문제로 진행합니다.   
+[<img src="https://d2gd6pc034wcta.cloudfront.net/images/logo@2x.png" width="400">](https://www.acmicpc.net/)<br>
+[<img src="https://programmers.co.kr/assets/bi-programmers-light-0d164d49b51a123bab5cca11106145d6fac5a5ac04b8646780369c2a5bc0dd79.png" width="400">](https://programmers.co.kr/)
 
 ## 📌 진행 및 규칙
 - 1주일 <span style="color:">**6문제**</span>

@@ -26,7 +26,7 @@ public class Problem15 {
             }
 
             else { // 만난 문자가 알파벳일때
-                for(int i=3 ; i<=5 ; i++) {
+                for(int i=3 ; i<=5 ; i++) { // 숫자들의 철자가 세 글자 부터 시작하므로 3부터 반복
                     String str = s.substring(0,i);
                     if(array.indexOf(str) == -1)
                         continue;

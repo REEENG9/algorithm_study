@@ -1,7 +1,6 @@
 package AlgorithmStudy.solution.week3;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 /**
@@ -14,41 +13,90 @@ import java.util.StringTokenizer;
 
 public class Baekjoon1991 {
     
-    public static ArrayList<Integer>[] tree;
-    public static boolean[] visited;
+    public static Tree[] tree;
     public static void main(String []args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st;
 
         int N = Integer.parseInt(br.readLine());
-        tree = new ArrayList[N];
-        visited = new boolean[N];
+        tree = new Tree[N];
         for (int i = 0; i < tree.length; i++) 
-            tree[i] = new ArrayList<>();
-        
+            tree[i] = new Tree();
+
+        int parent,leftChild,rightChild;
         for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
-            char temp;
-            int parent = st.nextToken().charAt(0) - 65;
+            char temp = st.nextToken().charAt(0);
+            parent = temp - 65;
             temp = st.nextToken().charAt(0);
-            int leftChild = st.nextToken().charAt(0) - 65;
-            int rightChild = st.nextToken().charAt(0) - 65;
-            
-            tree[parent].add(leftChild);
-            tree[parent].add(rightChild);
-        }
-        
-
-    }
-
-    public static void order(int node) {
-        int child;
-        for (int i = 0; i < tree[node].size(); i++) {
-            if (!visited[tree[node].get(i)]) {
-                
+            if (temp != '.') {
+                leftChild = temp - 65;
+                tree[parent].left = leftChild;    
+            }
+            temp = st.nextToken().charAt(0);
+            if (temp != '.') {
+                rightChild = temp - 65;
+                tree[parent].right = rightChild;
             }
         }
+        
+        preOrder(0);
+        System.out.println();
+        inOrder(0);
+        System.out.println();
+        postOrder(0);
+        System.out.println();
+    }
+
+    public static void preOrder(int node) {
+        
+        System.out.print((char)(node+65));
+
+        int leftChild = tree[node].left;
+        if (leftChild != -1) 
+            preOrder(leftChild);
+
+        int rightChild = tree[node].right;
+        if (rightChild != -1) 
+            preOrder(rightChild);
+        
+    }
+
+    public static void inOrder(int node) {
+    
+        int leftChild = tree[node].left;
+        if (leftChild != -1) 
+            inOrder(leftChild);
+
+        System.out.print((char)(node+65));
+
+        int rightChild = tree[node].right;
+        if (rightChild != -1) 
+            inOrder(rightChild);
+        
+    }
+
+    public static void postOrder(int node) {
+        
+        int leftChild = tree[node].left;
+        if (leftChild != -1) 
+            postOrder(leftChild);
+
+        int rightChild = tree[node].right;
+        if (rightChild != -1) 
+            postOrder(rightChild);
+        
+        System.out.print((char)(node+65));
+    }
+}
+
+class Tree {
+    public int left;
+    public int right;
+
+    public Tree() {
+        this.left = -1;
+        this.right = -1;
     }
 }
 

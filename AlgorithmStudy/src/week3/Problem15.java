@@ -26,7 +26,7 @@ public class Problem15 {
             }
 
             else { // 만난 문자가 알파벳일때
-                for(int i=3 ; i<=5 ; i++) { // 숫자들의 철자는 최소 세 글자 ~ 최대 다섯 글자임
+                for(int i=3 ; i<=5 ; i++) { // 숫자들의 철자는 최소 세 글자 ~ 최대 다섯 글자
                     String str = s.substring(0,i);
                     if(array.indexOf(str) == -1)
                         continue;

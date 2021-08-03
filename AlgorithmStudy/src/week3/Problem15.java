@@ -20,7 +20,7 @@ public class Problem15 {
         
         while (!s.equals("")) {
             char c = s.charAt(0);
-            if(48 <= c && c <= 57) { // 만난 문자가 숫자일때
+            if(Character.isDigit(c)) { // 만난 문자가 숫자일때
                 sb.append(s.substring(0,1));
                 s = s.substring(1);
             }

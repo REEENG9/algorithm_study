@@ -31,10 +31,11 @@ public class Problem23 {
             }
 
             Iterator<int[]> iter;
+            boolean max; // 현재 큐의 front에 존재하는 문서가 최대값인지 판별
             int output = 0; // 출력 순서 카운트
-            boolean max; 
             int[] check = new int[2]; // 중요도 비교 체크
             item = new int[2]; // 배열 초기화 (재활용)
+
             while (!print.isEmpty()) {
                 max = true;
                 iter = print.iterator(); // 포인터 초기화
@@ -63,9 +64,6 @@ public class Problem23 {
                 }
             }
         }
-        
-
-        
         bw.close();
     }
 }

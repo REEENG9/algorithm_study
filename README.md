@@ -25,7 +25,7 @@
 | 3주차 |[제로](https://www.acmicpc.net/problem/10773)|[실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)|[숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301)|[크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)|[트리순회](https://www.acmicpc.net/problem/1991)|[별찍기10](https://www.acmicpc.net/problem/2447)|
 | 4주차 |[스택](https://www.acmicpc.net/problem/10828)|[큐](https://www.acmicpc.net/problem/10845)|[괄호](https://www.acmicpc.net/problem/9012)|[요세푸스 문제](https://www.acmicpc.net/problem/1158)|[프린터 큐](https://www.acmicpc.net/problem/1966)|[키로거](https://www.acmicpc.net/problem/5397)|
 | 5주차 |[종이의개수](https://www.acmicpc.net/problem/1780)|[별찍기11](https://www.acmicpc.net/problem/2448)|[바이러스](https://www.acmicpc.net/problem/2606)|[유기농배추](https://www.acmicpc.net/problem/1012)|[단자번호붙이기](https://www.acmicpc.net/problem/2667)|[]()|
-| 6주차 |[]()|[]()|[]()|[]()|[]()|[]()|
+| 6주차 |[토마토](https://www.acmicpc.net/problem/7576)|[덱](https://www.acmicpc.net/problem/10866)|[Z](https://www.acmicpc.net/problem/1074)|[AC](https://www.acmicpc.net/problem/5430)|[N과 M (1)](https://www.acmicpc.net/problem/15649)|[]()|
 | 7주차 |[]()|[]()|[]()|[]()|[]()|[]()|
 
 

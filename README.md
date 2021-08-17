@@ -10,7 +10,7 @@
 [<img src="https://programmers.co.kr/assets/bi-programmers-light-0d164d49b51a123bab5cca11106145d6fac5a5ac04b8646780369c2a5bc0dd79.png" width="400">](https://programmers.co.kr/)
 
 ## 📌 진행 및 규칙
-- 1주일 <span style="color:">**6문제**</span>
+- 1주일 <span style="color:">**5~6문제**</span>
 - 반드시 코드 작성 전 **의사 코드** 작성 및 **문제 풀이 과정** 정리
 - 커밋 서머리 형식 : **(N/H) [00주차] 문제이름 (00.00.00)**
 	- N : 비교적 무난하게 풀었어요

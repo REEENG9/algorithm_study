@@ -26,7 +26,7 @@
 | 4주차 |[스택](https://www.acmicpc.net/problem/10828)|[큐](https://www.acmicpc.net/problem/10845)|[괄호](https://www.acmicpc.net/problem/9012)|[요세푸스 문제](https://www.acmicpc.net/problem/1158)|[프린터 큐](https://www.acmicpc.net/problem/1966)|[키로거](https://www.acmicpc.net/problem/5397)|
 | 5주차 |[종이의개수](https://www.acmicpc.net/problem/1780)|[별찍기11](https://www.acmicpc.net/problem/2448)|[바이러스](https://www.acmicpc.net/problem/2606)|[유기농배추](https://www.acmicpc.net/problem/1012)|[단자번호붙이기](https://www.acmicpc.net/problem/2667)|[]()|
 | 6주차 |[토마토](https://www.acmicpc.net/problem/7576)|[덱](https://www.acmicpc.net/problem/10866)|[Z](https://www.acmicpc.net/problem/1074)|[AC](https://www.acmicpc.net/problem/5430)|[N과 M (1)](https://www.acmicpc.net/problem/15649)|[]()|
-| 7주차 |[]()|[]()|[]()|[]()|[]()|[]()|
+| 7주차 |[적록색약](https://www.acmicpc.net/problem/10026)|[색종이 만들기](https://www.acmicpc.net/problem/2630)|[N과 M (3)](https://www.acmicpc.net/problem/15651)|[로또](https://www.acmicpc.net/problem/6603)|[암호 만들기](https://www.acmicpc.net/problem/1759)|[]()|
 
 
 > 문제 풀이 과정은 추후 깃허브 블로그에 올리기!   

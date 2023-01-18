@@ -29,5 +29,5 @@
 | 7주차 |[적록색약](https://www.acmicpc.net/problem/10026)|[색종이 만들기](https://www.acmicpc.net/problem/2630)|[N과 M (3)](https://www.acmicpc.net/problem/15651)|[로또](https://www.acmicpc.net/problem/6603)|[암호 만들기](https://www.acmicpc.net/problem/1759)|[]()|
 
 
-> 문제 풀이 과정은 추후 깃허브 블로그에 업로드   
+> 문제 풀이 과정은 추후  업로드   
 > 💛 Assist : [DeerGum](https://github.com/DeerGum)
